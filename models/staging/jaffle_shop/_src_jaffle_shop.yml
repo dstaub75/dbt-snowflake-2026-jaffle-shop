@@ -5,6 +5,5 @@ sources:
     database: raw
     tables:
       - name: customers
-      - name: custormers_test
       - name: orders
-      - name: products
+
