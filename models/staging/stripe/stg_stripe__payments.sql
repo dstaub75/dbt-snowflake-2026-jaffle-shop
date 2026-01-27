@@ -1,6 +1,6 @@
     select
         id as payment_id,
-        order_id,
+        orderid as order_id,
         paymentmethod as payment_method,
         status as order_status,
      -- amount is stored in cents, convert it to dollars
