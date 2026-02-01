@@ -5,6 +5,15 @@ sources:
     database: raw
     tables:
       - name: customers
-      - name: custormers_test
+        columns:
+          - name: id
+            data_tests:
+              - unique
+              - not_null
       - name: orders
-      - name: products
+        columns:
+          - name: id
+            data_tests:
+              - unique
+              - not_null
+
