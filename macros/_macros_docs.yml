@@ -8,3 +8,12 @@ macros:
     - name : decimals
       type : integer
       description: the number of decimals places, default to 2
+- name : grant_select
+  description: fmqrgfpnd
+  arguments:
+    - name: schema
+      type : string
+      description: dslkngfcx
+    - name : role
+      type : string
+      description: sqngpsd
